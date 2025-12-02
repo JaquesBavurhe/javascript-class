@@ -24,7 +24,7 @@ console.log(typeof price);
 console.log(typeof isAvailable);  
 
 
-//4. Type conversion
+//Type conversion
 let priceNumber = Number(price);      
 let ageString = String(age);          
 let boolValue = Boolean(isAvailable); 
@@ -39,7 +39,7 @@ console.log(Boolean(0));
 console.log(Boolean("hi")); 
 
 
-//5. Use string methods
+//4. Use string methods
 
 let text = "  Jaques Bavurhe  ";
 
@@ -60,7 +60,7 @@ let parts = clean.split(" ");
 
 console.log(clean);
 console.log(upper);
-console.log(hasHello);
+console.log(hasJaques);
 console.log(replaced);
 console.log(parts);
 
